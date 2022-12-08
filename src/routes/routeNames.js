@@ -1,7 +1,7 @@
 export const ROUTE_NAMES = {
   HOME: "/",
   LOGIN: "/login",
-  PROFILE: "profile",
+  PROFILE: "/profile",
   INFO: "/info",
   CALENDAR: "/calendar",
 };
