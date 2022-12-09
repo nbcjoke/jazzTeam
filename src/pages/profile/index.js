@@ -8,10 +8,10 @@ export const Profile = () => {
 
   return (
     <div>
-      <h1 className={styles.title}>Profile</h1>
+      <h1>Profile</h1>
       <div className={styles.profile__info}>
-        <p>{userData.username}</p>
-        <p>{userData.password}</p>
+        <p className={styles.profile__username}>{userData.username}</p>
+        <p className={styles.profile__password}>{userData.password}</p>
       </div>
       <div className={styles.profile__calendar}></div>
     </div>
