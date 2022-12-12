@@ -12,7 +12,7 @@ import styles from "./style.module.css";
 export const Login = () => {
   const dispatch = useDispatch();
 
-  const { isAuth, userData } = useSelector((state) => state.login);
+  const { isAuth } = useSelector((state) => state.login);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,10 +34,6 @@ export const Login = () => {
       alert("Log in failed");
     }
   };
-
-  //   if (isAuth) {
-  //     return <div>hello</div>;
-  //   }
 
   return (
     <div>

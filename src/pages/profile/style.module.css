@@ -12,3 +12,12 @@
 .profile__password {
   margin-top: 10px;
 }
+
+.profile__notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}

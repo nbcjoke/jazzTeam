@@ -1,9 +1,77 @@
 .container__calendar {
-  height: 90px;
-  padding: 20px 90px;
+  height: 80px;
+  padding: 25px 90px;
   box-sizing: border-box;
   box-shadow: 0px 2px 0px rgb(203, 201, 201);
 }
 
-.container__button {
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.event__button {
+  padding: 5px 7px;
+  background: rgb(42, 116, 255);
+  border: none;
+  color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.input {
+  padding: 5px 10px;
+}
+
+.calendar__navigation {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+.calendar__button {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+.calendar__reset {
+  padding: 5px;
+}
+
+.filtered__notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.calendar {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.week {
+  display: flex;
+  flex: 1;
 }
