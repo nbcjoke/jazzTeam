@@ -4,10 +4,16 @@
   height: 110px;
   padding: 5px;
   border: 1px solid rgb(216 216 217);
+  cursor: pointer;
 }
 
 .note__day {
   background: rgba(75, 198, 255, 0.5);
+}
+
+.day:hover,
+.note__day:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .note {
